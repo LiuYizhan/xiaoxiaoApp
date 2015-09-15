@@ -9,7 +9,7 @@
 #import "MainPageViewController.h"
 #import "AppDelegate.h"
 #import "MyLayout.h"
-#define vBackBarButtonItemName  @"backArrow.png"    //导航条返回默认图片名
+
 @interface MainPageViewController ()
 
 @end

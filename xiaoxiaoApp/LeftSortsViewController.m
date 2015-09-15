@@ -22,7 +22,7 @@
     // Do any additional setup after loading the view.
     
     UIImageView *imageview = [[UIImageView alloc] initWithFrame:self.view.bounds];
-    imageview.image = [UIImage imageNamed:@"leftbackiamge"];
+    imageview.image = [UIImage imageNamed:@"Leftbackimage"];
     [self.view addSubview:imageview];
     
     UITableView *tableview = [[UITableView alloc] init];
