@@ -1,5 +1,5 @@
 //
-//  LeftSortsViewController.h
+//  otherViewController.h
 //  xiaoxiaoApp
 //
 //  Created by 刘毅展 on 15/9/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LeftSortsViewController : UIViewController
-@property (strong, nonatomic) UITableView *tableview;
+@interface otherViewController : UIViewController
+
 @end

@@ -24,6 +24,7 @@
 		3023BBF71BA867D80085F258 /* LeftSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBF61BA867D80085F258 /* LeftSortsViewController.m */; };
 		3023BBFB1BA8681A0085F258 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBFA1BA8681A0085F258 /* LeftSlideViewController.m */; };
 		3023BBFE1BA868990085F258 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBFD1BA868990085F258 /* UIView_extra.m */; };
+		3023BC011BA86ADA0085F258 /* otherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BC001BA86ADA0085F258 /* otherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		3023BBFA1BA8681A0085F258 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
 		3023BBFC1BA868990085F258 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
 		3023BBFD1BA868990085F258 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		3023BBFF1BA86ADA0085F258 /* otherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherViewController.h; sourceTree = "<group>"; };
+		3023BC001BA86ADA0085F258 /* otherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				3023BBC21BA867580085F258 /* MainPageViewController.m */,
 				3023BBF51BA867D80085F258 /* LeftSortsViewController.h */,
 				3023BBF61BA867D80085F258 /* LeftSortsViewController.m */,
+				3023BBFF1BA86ADA0085F258 /* otherViewController.h */,
+				3023BC001BA86ADA0085F258 /* otherViewController.m */,
 				3023BBC41BA867580085F258 /* Main.storyboard */,
 				3023BBC71BA867580085F258 /* Images.xcassets */,
 				3023BBC91BA867580085F258 /* LaunchScreen.xib */,
@@ -299,6 +304,7 @@
 				3023BBC31BA867580085F258 /* MainPageViewController.m in Sources */,
 				3023BBFE1BA868990085F258 /* UIView_extra.m in Sources */,
 				3023BBF01BA867A50085F258 /* MyLayoutBase.m in Sources */,
+				3023BC011BA86ADA0085F258 /* otherViewController.m in Sources */,
 				3023BBBA1BA867580085F258 /* main.m in Sources */,
 				3023BBFB1BA8681A0085F258 /* LeftSlideViewController.m in Sources */,
 			);
