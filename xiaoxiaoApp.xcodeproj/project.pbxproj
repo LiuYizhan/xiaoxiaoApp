@@ -10,11 +10,20 @@
 		3023BBBA1BA867580085F258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBB91BA867580085F258 /* main.m */; };
 		3023BBBD1BA867580085F258 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBBC1BA867580085F258 /* AppDelegate.m */; };
 		3023BBC01BA867580085F258 /* xiaoxiaoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBBE1BA867580085F258 /* xiaoxiaoApp.xcdatamodeld */; };
-		3023BBC31BA867580085F258 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBC21BA867580085F258 /* ViewController.m */; };
+		3023BBC31BA867580085F258 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBC21BA867580085F258 /* MainPageViewController.m */; };
 		3023BBC61BA867580085F258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3023BBC41BA867580085F258 /* Main.storyboard */; };
 		3023BBC81BA867580085F258 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3023BBC71BA867580085F258 /* Images.xcassets */; };
 		3023BBCB1BA867580085F258 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3023BBC91BA867580085F258 /* LaunchScreen.xib */; };
 		3023BBD71BA867590085F258 /* xiaoxiaoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBD61BA867590085F258 /* xiaoxiaoAppTests.m */; };
+		3023BBEF1BA867A50085F258 /* MyFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBE21BA867A50085F258 /* MyFrameLayout.m */; };
+		3023BBF01BA867A50085F258 /* MyLayoutBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBE51BA867A50085F258 /* MyLayoutBase.m */; };
+		3023BBF11BA867A50085F258 /* MyLinearLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBE81BA867A50085F258 /* MyLinearLayout.m */; };
+		3023BBF21BA867A50085F258 /* MyMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBEA1BA867A50085F258 /* MyMaker.m */; };
+		3023BBF31BA867A50085F258 /* MyRelativeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBEC1BA867A50085F258 /* MyRelativeLayout.m */; };
+		3023BBF41BA867A50085F258 /* MyTableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBEE1BA867A50085F258 /* MyTableLayout.m */; };
+		3023BBF71BA867D80085F258 /* LeftSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBF61BA867D80085F258 /* LeftSortsViewController.m */; };
+		3023BBFB1BA8681A0085F258 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBFA1BA8681A0085F258 /* LeftSlideViewController.m */; };
+		3023BBFE1BA868990085F258 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 3023BBFD1BA868990085F258 /* UIView_extra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +43,34 @@
 		3023BBBB1BA867580085F258 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3023BBBC1BA867580085F258 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3023BBBF1BA867580085F258 /* xiaoxiaoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = xiaoxiaoApp.xcdatamodel; sourceTree = "<group>"; };
-		3023BBC11BA867580085F258 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3023BBC21BA867580085F258 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3023BBC11BA867580085F258 /* MainPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		3023BBC21BA867580085F258 /* MainPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
 		3023BBC51BA867580085F258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3023BBC71BA867580085F258 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3023BBCA1BA867580085F258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3023BBD01BA867590085F258 /* xiaoxiaoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaoxiaoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3023BBD51BA867590085F258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3023BBD61BA867590085F258 /* xiaoxiaoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaoxiaoAppTests.m; sourceTree = "<group>"; };
+		3023BBE11BA867A50085F258 /* MyFrameLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFrameLayout.h; sourceTree = "<group>"; };
+		3023BBE21BA867A50085F258 /* MyFrameLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFrameLayout.m; sourceTree = "<group>"; };
+		3023BBE31BA867A50085F258 /* MyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayout.h; sourceTree = "<group>"; };
+		3023BBE41BA867A50085F258 /* MyLayoutBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayoutBase.h; sourceTree = "<group>"; };
+		3023BBE51BA867A50085F258 /* MyLayoutBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayoutBase.m; sourceTree = "<group>"; };
+		3023BBE61BA867A50085F258 /* MyLayoutInner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayoutInner.h; sourceTree = "<group>"; };
+		3023BBE71BA867A50085F258 /* MyLinearLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLinearLayout.h; sourceTree = "<group>"; };
+		3023BBE81BA867A50085F258 /* MyLinearLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLinearLayout.m; sourceTree = "<group>"; };
+		3023BBE91BA867A50085F258 /* MyMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMaker.h; sourceTree = "<group>"; };
+		3023BBEA1BA867A50085F258 /* MyMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMaker.m; sourceTree = "<group>"; };
+		3023BBEB1BA867A50085F258 /* MyRelativeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRelativeLayout.h; sourceTree = "<group>"; };
+		3023BBEC1BA867A50085F258 /* MyRelativeLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRelativeLayout.m; sourceTree = "<group>"; };
+		3023BBED1BA867A50085F258 /* MyTableLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableLayout.h; sourceTree = "<group>"; };
+		3023BBEE1BA867A50085F258 /* MyTableLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableLayout.m; sourceTree = "<group>"; };
+		3023BBF51BA867D80085F258 /* LeftSortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSortsViewController.h; sourceTree = "<group>"; };
+		3023BBF61BA867D80085F258 /* LeftSortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSortsViewController.m; sourceTree = "<group>"; };
+		3023BBF91BA8681A0085F258 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		3023BBFA1BA8681A0085F258 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		3023BBFC1BA868990085F258 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		3023BBFD1BA868990085F258 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +94,7 @@
 		3023BBAB1BA867580085F258 = {
 			isa = PBXGroup;
 			children = (
+				3023BBE01BA867A50085F258 /* MyLayout */,
 				3023BBB61BA867580085F258 /* xiaoxiaoApp */,
 				3023BBD31BA867590085F258 /* xiaoxiaoAppTests */,
 				3023BBB51BA867580085F258 /* Products */,
@@ -83,10 +113,13 @@
 		3023BBB61BA867580085F258 /* xiaoxiaoApp */ = {
 			isa = PBXGroup;
 			children = (
+				3023BBF81BA867EC0085F258 /* LeftSlideViewController */,
 				3023BBBB1BA867580085F258 /* AppDelegate.h */,
 				3023BBBC1BA867580085F258 /* AppDelegate.m */,
-				3023BBC11BA867580085F258 /* ViewController.h */,
-				3023BBC21BA867580085F258 /* ViewController.m */,
+				3023BBC11BA867580085F258 /* MainPageViewController.h */,
+				3023BBC21BA867580085F258 /* MainPageViewController.m */,
+				3023BBF51BA867D80085F258 /* LeftSortsViewController.h */,
+				3023BBF61BA867D80085F258 /* LeftSortsViewController.m */,
 				3023BBC41BA867580085F258 /* Main.storyboard */,
 				3023BBC71BA867580085F258 /* Images.xcassets */,
 				3023BBC91BA867580085F258 /* LaunchScreen.xib */,
@@ -120,6 +153,39 @@
 				3023BBD51BA867590085F258 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3023BBE01BA867A50085F258 /* MyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3023BBE11BA867A50085F258 /* MyFrameLayout.h */,
+				3023BBE21BA867A50085F258 /* MyFrameLayout.m */,
+				3023BBE31BA867A50085F258 /* MyLayout.h */,
+				3023BBE41BA867A50085F258 /* MyLayoutBase.h */,
+				3023BBE51BA867A50085F258 /* MyLayoutBase.m */,
+				3023BBE61BA867A50085F258 /* MyLayoutInner.h */,
+				3023BBE71BA867A50085F258 /* MyLinearLayout.h */,
+				3023BBE81BA867A50085F258 /* MyLinearLayout.m */,
+				3023BBE91BA867A50085F258 /* MyMaker.h */,
+				3023BBEA1BA867A50085F258 /* MyMaker.m */,
+				3023BBEB1BA867A50085F258 /* MyRelativeLayout.h */,
+				3023BBEC1BA867A50085F258 /* MyRelativeLayout.m */,
+				3023BBED1BA867A50085F258 /* MyTableLayout.h */,
+				3023BBEE1BA867A50085F258 /* MyTableLayout.m */,
+			);
+			name = MyLayout;
+			path = xiaoxiaoApp/MyLayout;
+			sourceTree = "<group>";
+		};
+		3023BBF81BA867EC0085F258 /* LeftSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3023BBF91BA8681A0085F258 /* LeftSlideViewController.h */,
+				3023BBFA1BA8681A0085F258 /* LeftSlideViewController.m */,
+				3023BBFC1BA868990085F258 /* UIView_extra.h */,
+				3023BBFD1BA868990085F258 /* UIView_extra.m */,
+			);
+			name = LeftSlideViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,10 +288,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3023BBEF1BA867A50085F258 /* MyFrameLayout.m in Sources */,
+				3023BBF71BA867D80085F258 /* LeftSortsViewController.m in Sources */,
+				3023BBF31BA867A50085F258 /* MyRelativeLayout.m in Sources */,
+				3023BBF41BA867A50085F258 /* MyTableLayout.m in Sources */,
 				3023BBC01BA867580085F258 /* xiaoxiaoApp.xcdatamodeld in Sources */,
+				3023BBF21BA867A50085F258 /* MyMaker.m in Sources */,
+				3023BBF11BA867A50085F258 /* MyLinearLayout.m in Sources */,
 				3023BBBD1BA867580085F258 /* AppDelegate.m in Sources */,
-				3023BBC31BA867580085F258 /* ViewController.m in Sources */,
+				3023BBC31BA867580085F258 /* MainPageViewController.m in Sources */,
+				3023BBFE1BA868990085F258 /* UIView_extra.m in Sources */,
+				3023BBF01BA867A50085F258 /* MyLayoutBase.m in Sources */,
 				3023BBBA1BA867580085F258 /* main.m in Sources */,
+				3023BBFB1BA8681A0085F258 /* LeftSlideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIView_extra.h
 //  xiaoxiaoApp
 //
 //  Created by 刘毅展 on 15/9/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UIView_extra : UIView
 
 @end
-
