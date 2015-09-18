@@ -25,6 +25,17 @@
     imageview.image = [UIImage imageNamed:@"Leftbackimage"];
     [self.view addSubview:imageview];
     
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(40, 60, 100, 100)];
+    imageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
+    imageView.image = [UIImage imageNamed:@"里昂3.jpg"];
+    imageView.layer.masksToBounds = YES;
+    imageView.layer.cornerRadius = 50.0;
+    imageView.layer.borderColor = [UIColor whiteColor].CGColor;
+    imageView.layer.borderWidth = 3.0f;
+    imageView.layer.rasterizationScale = [UIScreen mainScreen].scale;
+    imageView.layer.shouldRasterize = YES;
+    imageView.clipsToBounds = YES;
+    
     UITableView *tableview = [[UITableView alloc] init];
     self.tableview = tableview;
     tableview.frame = self.view.bounds;
@@ -32,6 +43,7 @@
     tableview.delegate  = self;
     tableview.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:tableview];
+    [tableview addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {
