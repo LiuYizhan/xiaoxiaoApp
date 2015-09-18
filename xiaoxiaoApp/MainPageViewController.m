@@ -21,26 +21,24 @@
     self.title = @"笑校";
     
     self.view.backgroundColor = [UIColor whiteColor];
-    
+    //左上角侧滑按钮
     UIButton *menuBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     menuBtn.frame = CGRectMake(0, 0, 20, 18);
     [menuBtn setBackgroundImage:[UIImage imageNamed:@"menu"] forState:UIControlStateNormal];
     [menuBtn addTarget:self action:@selector(openOrCloseLeftList) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:menuBtn];
-    
+    //主界面总布局
     MyLinearLayout *LinearLayout1 = [MyLinearLayout new];
     LinearLayout1.backgroundColor = [UIColor colorWithRed:215/255.0 green:255/255.0 blue:255/255.0 alpha:1];
     LinearLayout1.wrapContentHeight  = YES;
     LinearLayout1.orientation = LVORIENTATION_VERT;
     LinearLayout1.gravity = MGRAVITY_VERT_CENTER;
     
-    
+    //第一行按钮
     UIView *v1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 120)];
     v1.backgroundColor = [UIColor colorWithRed:215/255.0 green:255/255.0 blue:255/255.0 alpha:1];
     v1.marginGravity = MGRAVITY_CENTER;
     v1.leftMargin = v1.rightMargin = 0;
-    
-    
     [LinearLayout1 addSubview:v1];
     
     UIButton *b1 = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -61,7 +59,7 @@
     b2.titleLabel.font = [UIFont systemFontOfSize:100];
     [v1 addSubview:b2];
     
-    
+    //第二行按钮
     UIView *v2 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 120)];
     v2.backgroundColor = [UIColor colorWithRed:215/255.0 green:255/255.0 blue:255/255.0 alpha:1];
     v2.leftMargin = v2.rightMargin = 0 ;v2.topMargin = 30;
@@ -85,7 +83,7 @@
     b4.titleLabel.font = [UIFont systemFontOfSize:100];
     [v2 addSubview:b4];
     
-    
+    //第三行按钮
     UIView *v3 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 120)];
     v3.backgroundColor = [UIColor colorWithRed:215/255.0 green:255/255.0 blue:255/255.0 alpha:1];
     v3.leftMargin = v3.rightMargin = 0;v3.topMargin = 30;

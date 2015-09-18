@@ -19,12 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // 侧滑背景图片
     
     UIImageView *imageview = [[UIImageView alloc] initWithFrame:self.view.bounds];
     imageview.image = [UIImage imageNamed:@"Leftbackimage"];
     [self.view addSubview:imageview];
-    
+    // 头像
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(40, 60, 100, 100)];
     imageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
     imageView.image = [UIImage imageNamed:@"里昂3.jpg"];
@@ -35,7 +35,7 @@
     imageView.layer.rasterizationScale = [UIScreen mainScreen].scale;
     imageView.layer.shouldRasterize = YES;
     imageView.clipsToBounds = YES;
-    
+    // 菜单
     UITableView *tableview = [[UITableView alloc] init];
     self.tableview = tableview;
     tableview.frame = self.view.bounds;
@@ -48,14 +48,13 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 3;
 }
-
+  // 菜单单元格
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *Identifier = @"Identifier";
